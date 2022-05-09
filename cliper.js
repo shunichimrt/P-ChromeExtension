@@ -33,6 +33,6 @@ javascript: void ((f) => {
   text += path_web
   text += '\n' + location.href
   text += '\n' + path_win
-  navigator.clipboard.writeText(text)
-  alert('Copied !\n--\n' + text)
+  navigator.clipboard.writeText("hello")
+  alert("hello")
 })
